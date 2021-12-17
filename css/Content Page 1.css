@@ -1,0 +1,167 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background-color:#7F00FF;	
+    position: relative;
+    width: 1000px;
+}
+
+#logo{	
+    background-color: #FFA500;
+    position: absolute;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 0px;
+    width: 350px;
+    font-family: Georgia, Garamond, serif;
+    font-size: 30px;
+    color: #000080;
+    font-weight: bold;
+    text-align: center;
+}
+
+header {
+    position: absolute;
+    background-color: #FFA500;
+    left: 500px;
+    margin: 0px;
+    padding: 15px;
+    border: 3px solid black;
+    width: 1100px;
+    text-align: center;
+    font-family: "Andale Mono", monospace;
+}
+
+nav {
+	position: absolute;
+	left: 1630px;
+	top: 150px;
+}
+
+#NavLinks {
+	text-align: center;
+	list-style-type: none;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 30px;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #FFA500;
+	text-decoration: none;
+}
+	
+a.nav:link {
+    display: block;
+    color: #7F00FF;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a.nav:visited { 
+   color: #7F00FF;
+}
+
+h2 {
+    font-family: Helvetica, verdana, sans-serif; 
+	text-align: center;
+}
+
+#RoleHeader {
+	position: absolute;
+	left: 25px;
+	top: 100px;
+	color:white;
+}
+
+#BestRoleHeader {
+	position: absolute;
+	left: 25px;
+	top: 1100px;
+	color:white;
+}
+
+table {
+	position: absolute;
+	left: 25px;
+	background-color: #FFA500;
+	border-collapse: collapse;
+	border: 3px solid black;
+}
+
+#Roles {
+	top: 150px;
+	width: 1600px;
+}
+
+#BestRole {
+	top: 1150px;
+	width: 800px;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+th {
+	font-family: Helvetica, verdana, sans-serif;
+	text-align: center;
+	font-size: 25px;
+}
+
+td {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 20px;
+}
+
+li {
+	list-style-type: circle;
+}
+
+#PageGuide{
+	position: absolute;
+	top: 1500px;
+	left: 1400px;
+	color: white;
+	width: 150px;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 20px;
+}
+
+#Page1 {
+	left: 0px;
+	position: absolute;
+	top: 1500px;
+	width: 150px;
+	background-color: #FFA500;
+	padding: 10px;
+    border: 3px dashed black;
+    margin: 0px;
+	text-align: center;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 20px;
+}
+
+#Page2 {
+	left: 1600px;
+	position: absolute;
+	top: 1500px;
+	width: 150px;
+	background-color: #FFA500;
+	padding: 10px;
+    border: 3px dashed black;
+    margin: 0px;
+	text-align: center;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 20px;
+}
+
+footer {
+    position: absolute;
+	top: 1450px;
+	left: 800px;
+	color: white;
+	font-weight: bold;
+}
