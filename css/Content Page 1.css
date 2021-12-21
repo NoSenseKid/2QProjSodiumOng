@@ -160,8 +160,9 @@ li {
 
 footer {
     position: absolute;
-	top: 1450px;
+	top: 1350px;
 	left: 800px;
 	color: white;
 	font-weight: bold;
+	width: 500px;
 }
