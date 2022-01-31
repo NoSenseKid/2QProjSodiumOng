@@ -23,9 +23,9 @@ body {
 }
 
 header {
-    position: absolute;
+	position: absolute;
     background-color: #FFA500;
-    left: 650px;
+    left: 400px;
     margin: 0px;
     padding: 15px;
     border: 3px solid black;
@@ -36,31 +36,27 @@ header {
 
 nav {
 	position: absolute;
-	left: 1600px;
-	top: 200px;
+	left: 5px;
+	top: 150px;
+	width: 625px;
+	border: 3px solid black;
+	padding: 10px;
 }
 
-ul {
-	text-align: center;
-	list-style-type: none;
+#NavLinks {
 	font-family: Tahoma, Arial, sans-serif;
-	font-size: 30px;
-    margin: 0;
-    padding: 0;
-    width: 150px;
-    background-color: #FFA500;
-	text-decoration: none;
+	font-size: 20px;  
+	list-style-type: circle;
 }
-	 
-li a:link {
-    display: block;
-    color: #7F00FF;
+
+a.navpane:link {
+	color: white;
     padding: 10px;
     text-decoration: none;
 }
 
-li a:visited { 
-   color: #7F00FF;
+a.navpane:visited { 
+   color: white;
 }
 
 h2 {
@@ -88,7 +84,7 @@ p.sentence {
     text-align: center;
 }
 
-div {
+section {
     background-color: #FFA500;
 	position: absolute;
 	padding: 10px;
@@ -97,41 +93,31 @@ div {
 }
 
 #Game {
-    top: 100px;
+    top: 430px;
     width: 538px;
     
 }
 
 #Guide {
     left: 650px;	
-    top: 200px;
+    top: 480px;
     width: 900px;   
 }
 
 #Benefits {
-	top: 520px;
+	top: 850px;
     width: 1780px;	
 }
 
 #Me{
-	top: 860px;
+	top: 1200px;
 	width: 1780px;
-}
-
-#PageGuide{
-	position: absolute;
-	top: 1170px;
-	left: 1400px;
-	color: white;
-	width: 150px;
-	font-family: Tahoma, Arial, sans-serif;
-	font-size: 20px;
 }
 
 #NextPage{
 	position: absolute;
 	left: 1600px;
-	top: 1170px;
+	top: 1700px;
 	width: 150px;
 	background-color: #FFA500;
 	padding: 10px;
@@ -142,12 +128,58 @@ div {
 	font-size: 20px;
 }
 
-footer {
-    position: absolute;
-	top: 1050px;
-	left: 800px;
-	color: white;
-	font-weight: bold;
-	width: 500px;
+#NextPage:link {
+    color: #7F00FF;
+    padding: 10px;
+    text-decoration: none;
 }
 
+#NextPage:visited { 
+   color: #7F00FF;
+}
+
+footer {
+    position: absolute;
+	top: 1450px;
+	left: 500px;
+	color: white;
+	font-weight: bold;
+	width: 800px;
+	text-align: center;
+}
+
+#facebook {
+	position: absolute;
+	background: url('../images/Image Sprites.jpg') no-repeat -40px -105px;
+	width: 75px;
+	height: 75px;
+	left: 1525px;
+	top: 35px;
+}
+
+#youtube {
+	position: absolute;
+	background: url('../images/Image Sprites.jpg') no-repeat -275px -210px;
+	width: 75px;
+	height: 75px;
+	left: 1600px;
+	top: 35px;
+}
+
+#twitter {
+	position: absolute;
+	background: url('../images/Image Sprites.jpg') no-repeat -510px -105px;
+	width: 75px;
+	height: 75px;
+	left: 1675px;
+	top: 35px;
+}
+
+#Contacts {
+	position: absolute;
+	top: -20px;
+	left: 1560px;
+	text-align: center;
+	color: white;
+	width: 150px;
+}
