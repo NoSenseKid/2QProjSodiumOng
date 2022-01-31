@@ -1,0 +1,189 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	overflow: auto;
+	background-color:#7F00FF;	
+    position: relative;
+}
+
+#logo{	
+    position: absolute;
+    background-color: #FFA500;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 0px;
+    width: 350px;
+    font-family: Georgia, Garamond, serif;
+    font-size: 30px;
+    color: #000080;
+    font-weight: bold;
+    text-align: center;
+}
+
+header {
+	position: absolute;
+    background-color: #FFA500;
+    left: 400px;
+    margin: 0px;
+    padding: 15px;
+    border: 3px solid black;
+    width: 1100px;
+    text-align: center;
+    font-family: "Andale Mono", monospace;
+}
+
+nav {
+	position: relative;
+	left: 5px;
+	top: 150px;
+	width: 625px;
+	border: 3px solid black;
+	padding: 10px;
+}
+
+#NavLinks {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 20px; 		
+}
+
+.navpane:link {
+	color: white;
+	text-decoration: none;
+}
+
+.navpane:visited{
+	color: white;
+}
+
+
+h2 {
+    font-family: Helvetica, verdana, sans-serif; 
+	color: white;
+}
+
+section {
+	position: relative;
+    top: 150px;
+	margin-left: 5px;
+	margin-top: 50px;
+}
+
+table {
+	background-color: #FFA500;
+	border-collapse: collapse;
+	border: 3px solid black;
+	width: 1500px;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+th {
+	font-family: Helvetica, verdana, sans-serif;
+	text-align: center;
+	font-size: 25px;
+}
+
+td {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 20px;
+}
+	
+li {
+	list-style-type: circle;
+}
+
+footer {
+	position: relative;
+	margin-top: 200px;
+	margin-left: 500px; 
+	color: white;
+	font-weight: bold;
+	width: 800px;
+	text-align: center;
+}
+
+#LastPage {
+	position: relative;
+	width: 150px;
+	background-color: #FFA500;
+	padding: 10px;
+    border: 3px dashed black;
+    margin: 0px;
+	text-align: center;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 20px;
+}
+
+#NextPage {
+	left: 1550px;
+	position: relative;
+	width: 150px;
+	background-color: #FFA500;
+	padding: 10px;
+    border: 3px dashed black;
+    margin: 0px;
+	text-align: center;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 20px;
+}
+
+#LastPage:link {
+    color: #7F00FF;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#LastPage:visited { 
+   color: #7F00FF;
+}
+
+#NextPage:link {
+    color: #7F00FF;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#NextPage:visited { 
+   color: #7F00FF;
+}
+
+#facebook {
+	position: absolute;
+	background: url('../images/Image Sprites.jpg') no-repeat -40px -105px;
+	width: 75px;
+	height: 75px;
+	left: 1525px;
+	top: 35px;
+}
+
+#youtube {
+	position: absolute;
+	background: url('../images/Image Sprites.jpg') no-repeat -275px -210px;
+	width: 75px;
+	height: 75px;
+	left: 1600px;
+	top: 35px;
+}
+
+#twitter {
+	position: absolute;
+	background: url('../images/Image Sprites.jpg') no-repeat -510px -105px;
+	width: 75px;
+	height: 75px;
+	left: 1675px;
+	top: 35px;
+}
+
+#Contacts {
+	position: absolute;
+	top: -20px;
+	left: 1560px;
+	text-align: center;
+	color: white;
+	width: 150px;
+}
