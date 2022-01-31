@@ -5,7 +5,7 @@
 body {
     background-color:#7F00FF;	
     position: relative;
-    width: 1000px;
+	overflow: auto;
 }
 
 #logo{	
@@ -23,9 +23,9 @@ body {
 }
 
 header {
-    position: absolute;
+	position: absolute;
     background-color: #FFA500;
-    left: 500px;
+    left: 400px;
     margin: 0px;
     padding: 15px;
     border: 3px solid black;
@@ -35,69 +35,46 @@ header {
 }
 
 nav {
-	position: absolute;
-	left: 1630px;
+	position: relative;
+	left: 5px;
 	top: 150px;
+	width: 625px;
+	border: 3px solid black;
+	padding: 10px;
 }
 
 #NavLinks {
-	text-align: center;
-	list-style-type: none;
 	font-family: Tahoma, Arial, sans-serif;
-	font-size: 30px;
-    margin: 0;
-    padding: 0;
-    width: 150px;
-    background-color: #FFA500;
-	text-decoration: none;
+	font-size: 20px;  
 }
-	
-a.nav:link {
-    display: block;
-    color: #7F00FF;
+
+a.navpane:link {
+	color: white;
     padding: 10px;
     text-decoration: none;
 }
 
-a.nav:visited { 
-   color: #7F00FF;
+a.navpane:visited { 
+   color: white;
+}
+
+section {
+	position: relative;
+    top: 150px;
+	margin-left: 5px;
+	margin-top: 50px;
 }
 
 h2 {
     font-family: Helvetica, verdana, sans-serif; 
-	text-align: center;
-}
-
-#RoleHeader {
-	position: absolute;
-	left: 25px;
-	top: 100px;
-	color:white;
-}
-
-#BestRoleHeader {
-	position: absolute;
-	left: 25px;
-	top: 1100px;
-	color:white;
+	color: white;
 }
 
 table {
-	position: absolute;
-	left: 25px;
 	background-color: #FFA500;
 	border-collapse: collapse;
 	border: 3px solid black;
-}
-
-#Roles {
-	top: 150px;
-	width: 1600px;
-}
-
-#BestRole {
-	top: 1150px;
-	width: 800px;
+	width: 1500px;
 }
 
 th, td {
@@ -120,49 +97,93 @@ li {
 	list-style-type: circle;
 }
 
-#PageGuide{
-	position: absolute;
-	top: 1500px;
-	left: 1400px;
-	color: white;
-	width: 150px;
-	font-family: Tahoma, Arial, sans-serif;
-	font-size: 20px;
-}
-
-#Page1 {
-	left: 0px;
-	position: absolute;
-	top: 1500px;
-	width: 150px;
-	background-color: #FFA500;
-	padding: 10px;
-    border: 3px dashed black;
-    margin: 0px;
-	text-align: center;
-	font-family: Tahoma, Arial, sans-serif;
-	font-size: 20px;
-}
-
-#Page2 {
-	left: 1600px;
-	position: absolute;
-	top: 1500px;
-	width: 150px;
-	background-color: #FFA500;
-	padding: 10px;
-    border: 3px dashed black;
-    margin: 0px;
-	text-align: center;
-	font-family: Tahoma, Arial, sans-serif;
-	font-size: 20px;
-}
-
 footer {
-    position: absolute;
-	top: 1380px;
-	left: 800px;
+	position: relative;
+	margin-top: 200px;
+	margin-left: 500px; 
 	color: white;
 	font-weight: bold;
-	width: 500px;
+	width: 800px;
+	text-align: center;
+}
+
+#LastPage {
+	position: relative;
+	width: 150px;
+	background-color: #FFA500;
+	padding: 10px;
+    border: 3px dashed black;
+    margin: 0px;
+	text-align: center;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 20px;
+}
+
+#NextPage {
+	left: 1550px;
+	position: relative;
+	width: 150px;
+	background-color: #FFA500;
+	padding: 10px;
+    border: 3px dashed black;
+    margin: 0px;
+	text-align: center;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 20px;
+}
+
+#LastPage:link {
+    color: #7F00FF;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#LastPage:visited { 
+   color: #7F00FF;
+}
+
+#NextPage:link {
+    color: #7F00FF;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#NextPage:visited { 
+   color: #7F00FF;
+}
+
+#facebook {
+	position: absolute;
+	background: url('../images/Image Sprites.jpg') no-repeat -40px -105px;
+	width: 75px;
+	height: 75px;
+	left: 1525px;
+	top: 35px;
+}
+
+#youtube {
+	position: absolute;
+	background: url('../images/Image Sprites.jpg') no-repeat -275px -210px;
+	width: 75px;
+	height: 75px;
+	left: 1600px;
+	top: 35px;
+}
+
+#twitter {
+	position: absolute;
+	background: url('../images/Image Sprites.jpg') no-repeat -510px -105px;
+	width: 75px;
+	height: 75px;
+	left: 1675px;
+	top: 35px;
+}
+
+#Contacts {
+	position: absolute;
+	top: -20px;
+	left: 1560px;
+	text-align: center;
+	color: white;
+	width: 150px;
 }
